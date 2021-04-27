@@ -18,24 +18,29 @@ class MainViewModel : ViewModel() {
     fun fetchData() = viewModelScope.launch(Dispatchers.IO) {
         val lstRes = mutableListOf(
             Article(
-                "Name 1",
-                "The PNG format is widely supported and works best with presentations and web design. "
+                title = "Name 1",
+                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             ),
             Article(
-                "Name 2",
-                "The JPG format is widely supported and works best with presentations and web design. "
+                title = "Name 2",
+                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             ),
             Article(
-                "Name 2",
-                "The DWM format is widely supported and works best with presentations and web design. "
+                title = "Name 3",
+                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             ),
             Article(
-                "Name",
-                "The PNG format is widely supported and works best with presentations and web design. "
+                title = "Name 4",
+                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             ),
             Article(
-                "Name 5",
-                "The PNG format is widely supported and works best with presentations and web design. "
+                title = "Name 5",
+                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             )
         )
         _data.postValue(lstRes)
