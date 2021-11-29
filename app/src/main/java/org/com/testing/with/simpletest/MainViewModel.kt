@@ -5,17 +5,19 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
-class MainViewModel : ViewModel() {
+open class MainViewModel : ViewModel() {
 
     private val TAG = MainViewModel::class.java.simpleName
 
     private var _data = MutableLiveData<List<Article>>()
     val data: LiveData<List<Article>>
         get() = _data
+//        get() =
 
-    fun fetchData() = viewModelScope.launch(Dispatchers.IO) {
+    fun fetchData(): Job = viewModelScope.launch(Dispatchers.IO) {
         val lstRes = mutableListOf(
             Article(
                 title = "Name 1",
