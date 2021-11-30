@@ -6,7 +6,7 @@
     <data>
         <variable
             name="mainViewModelXML"
-            type="org.com.testing.with.simpletest.MainViewModel" />
+            type="org.com.testing.with.jetbraninsdemo.MainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

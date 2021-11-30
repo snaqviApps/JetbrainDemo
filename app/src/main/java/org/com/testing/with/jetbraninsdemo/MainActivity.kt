@@ -1,13 +1,12 @@
-package org.com.testing.with.simpletest
+package org.com.testing.with.jetbraninsdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 //import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
 //import androidx.lifecycle.lifecycleScope
-import org.com.testing.with.simpletest.databinding.ActivityMainBinding
+import org.com.testing.with.jetbraninsdemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

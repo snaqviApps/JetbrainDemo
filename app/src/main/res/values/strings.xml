@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SimpleTest</string>
+    <string name="app_name">JetbrainDemo</string>
     <string name="image_placeholder">Image-placeholder</string>
     <string name="titleString">Title-I</string>
     <string name="contentString">Title-I content</string>

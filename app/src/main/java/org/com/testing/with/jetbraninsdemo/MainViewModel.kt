@@ -1,4 +1,4 @@
-package org.com.testing.with.simpletest
+package org.com.testing.with.jetbraninsdemo
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

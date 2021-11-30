@@ -1,4 +1,4 @@
-package org.com.testing.with.simpletest
+package org.com.testing.with.jetbraninsdemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

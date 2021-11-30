@@ -17,7 +17,7 @@ android {
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        applicationId "org.com.testing.with.simpletest"
+        applicationId "org.com.testing.with.jetbraninsdemo"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1

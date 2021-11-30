@@ -1,4 +1,4 @@
-package org.com.testing.with.simpletest
+package org.com.testing.with.jetbraninsdemo
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import org.com.testing.with.util.TextItemViewHolder
 
 //class ArticleAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
 class ArticleAdapter: RecyclerView.Adapter<ArticleAdapter.ArticleViewHolder>() {
