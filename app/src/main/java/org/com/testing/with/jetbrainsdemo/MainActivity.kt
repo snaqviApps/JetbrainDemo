@@ -1,4 +1,4 @@
-package org.com.testing.with.jetbraninsdemo
+package org.com.testing.with.jetbrainsdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 //import androidx.lifecycle.lifecycleScope
-import org.com.testing.with.jetbraninsdemo.databinding.ActivityMainBinding
+import org.com.testing.with.jetbrainsdemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         // provide viewModel
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         _artBinding.mainViewModelXML = mainViewModel
+
+        mainViewModel.fetchData()
 
         val adapter = ArticleAdapter()
         _artBinding.articleRecyclerList.adapter = adapter

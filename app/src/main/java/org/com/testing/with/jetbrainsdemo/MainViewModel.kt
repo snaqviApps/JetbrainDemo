@@ -1,4 +1,4 @@
-package org.com.testing.with.jetbraninsdemo
+package org.com.testing.with.jetbrainsdemo
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -15,7 +15,6 @@ open class MainViewModel : ViewModel() {
     private var _data = MutableLiveData<List<Article>>()
     val data: LiveData<List<Article>>
         get() = _data
-//        get() =
 
     fun fetchData(): Job = viewModelScope.launch(Dispatchers.IO) {
         val lstRes = mutableListOf(

@@ -1,4 +1,4 @@
-package org.com.testing.with.jetbraninsdemo
+package org.com.testing.with.jetbrainsdemo
 
 import org.junit.Test
 
