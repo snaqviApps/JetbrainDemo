@@ -20,7 +20,7 @@ open class MainViewModel : ViewModel() {
         val lstRes = mutableListOf(
             Article(
                 title = "Name 1",
-                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                content = "The PNG format is widely supported and works best with presentations and web design. 1 ",
                 imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             ),
             Article(
@@ -40,7 +40,7 @@ open class MainViewModel : ViewModel() {
             ),
             Article(
                 title = "Name 5",
-                content = "The PNG format is widely supported and works best with presentations and web design. ",
+                content = "The PNG format is widely supported and works best with presentations and web design. 5",
                 imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             )
         )

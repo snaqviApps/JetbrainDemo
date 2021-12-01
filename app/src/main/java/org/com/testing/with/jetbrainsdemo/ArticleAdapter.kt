@@ -32,13 +32,13 @@ class ArticleAdapter: RecyclerView.Adapter<ArticleAdapter.ArticleViewHolder>() {
         holder.content.text = item.content
 
 //        holder.image.setImageResource(R.drawable.ic_baseline_4g_plus_mobiledata_24)
-        holder.image.let {
-            val imgUrl = item.imageURL.toUri().buildUpon().scheme("https").build()
-            Picasso
-                .get()
-                .load(imgUrl)
-                .into(holder.image)
-        }
+//        holder.image.let {
+//            val imgUrl = item.imageURL.toUri().buildUpon().scheme("https").build()
+//            Picasso
+//                .get()
+//                .load(imgUrl)
+//                .into(holder.image)
+//        }
     }
 
     //    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TextItemViewHolder {
